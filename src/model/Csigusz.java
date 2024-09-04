@@ -12,7 +12,7 @@ public class Csigusz {
     private static final String BLUE = "\u001B[34m";
 
     private String nev;
-    private Szinek szinNev;
+    private final Szinek szinNev;
     private String szinKod;
 
     public Csigusz(String nev) throws Exception {
